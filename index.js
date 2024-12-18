@@ -56,4 +56,7 @@ function knightMove(startCord, endCord) {
 	}
 }
 
-console.log(knightMove([0, 0], [1, 2]));
+const moves = knightMove([3, 3], [0, 0]);
+console.log("Total number of moves: " + (moves.length - 1));
+console.log("Moves made:");
+console.log(moves);
